@@ -1,0 +1,46 @@
+.header-ctn {
+  background: #FFFFFF;
+  height: 100px;
+  box-shadow: 0px 10px 20px rgba(7, 0, 0, 0.09);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  /*justify-content: center;*/
+}
+.header-ctn > .inner {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.search-input {
+  position: relative;
+  flex-basis: 60%;
+}
+.search-input svg {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  width: 24px;
+}
+.search-input input {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  padding: 0 12px 0 60px
+}
+.cart-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #EA8D51;
+  border: 0;
+  padding: 0 24px;
+  border-radius: 5px;
+}
+.cart-btn svg {
+  width: 24px;
+  margin-right: 6px;
+}

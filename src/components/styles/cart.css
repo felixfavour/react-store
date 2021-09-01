@@ -1,0 +1,41 @@
+
+/* For Product card*/
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.category {
+  font-size: 13px;
+  font-weight: 500;
+}
+h3, h4 {
+  margin-block: 8px 0;
+  color: #EA8D51;
+}
+.texts {
+  flex-basis: 50%;
+}
+.sect {
+  padding-right: 18px;
+  border-right: 1px solid rgba(206, 206, 206, 0.65);
+  margin-right: 18px;
+  height: 100px;
+}
+.remove-btn {
+  margin-top: 12px;
+}
+
+.sect:nth-last-child(1) {
+  border: 0;
+}
+.cart-item img {
+  height: 80px;
+  width: 140px;
+  object-fit: cover;
+}
+.sect h4 + div {
+  margin-top: 12px;
+}
